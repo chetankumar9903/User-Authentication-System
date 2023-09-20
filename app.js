@@ -6,21 +6,21 @@ const app = express();
 const path = require("path");
 const hbs = require("hbs");
 
-require("./db/conn");
-const Register = require("./models/register");
-const UserProfile = require("./models/userinfo");
+require("./src/db/conn");
+const Register = require("./src/models/register");
+const UserProfile = require("./src/models/userinfo");
 const { json } = require("express");
 const { log } = require("console");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const cookieparser = require("cookie-parser");
-const auth = require("./middleware/auth");
+const auth = require("./src/middleware/auth");
 
 const port = process.env.PORT || 3000;
 
-const static_path = path.join(__dirname, "../public");
-const template_path = path.join(__dirname, "../templates/views"); // we are changing the actual view path so tell this to express
-const partial_path = path.join(__dirname, "../templates/partials"); // locate the location of partials files
+const static_path = path.join(__dirname, "./public");
+const template_path = path.join(__dirname, "./templates/views"); // we are changing the actual view path so tell this to express
+const partial_path = path.join(__dirname, "./templates/partials"); // locate the location of partials files
 
 //Middleware
 app.use(express.json());
