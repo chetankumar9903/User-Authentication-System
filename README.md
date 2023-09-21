@@ -93,7 +93,7 @@ To get started, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/chetankumar9903/User-Authentication-System.git
    cd your-project
 2. Install dependencies:
     ```bash
