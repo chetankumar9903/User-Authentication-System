@@ -1,7 +1,7 @@
 # Secure User Registration and Login System
 
 
-[Website URL](https://user-authenication-system.onrender.com/)
+[Website URL](https://user-authenication-system.onrender.com)
 
 A secure user registration and login system with features like password hashing, JWT-based authentication, cookie management, and more.
 
