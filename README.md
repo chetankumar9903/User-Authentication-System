@@ -1,6 +1,5 @@
 # Secure User Registration and Login System
 
-![Website Logo](https://github.com/chetankumar9903/User-Authentication-System/assets/126199153/7ac6a75e-2cb5-4ac4-99f2-5c4416dc9d29)
 
 [Website URL](https://user-authenication-system.onrender.com/)
 
