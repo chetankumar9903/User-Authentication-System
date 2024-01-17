@@ -12,11 +12,8 @@ A secure user registration and login system with features like password hashing,
   - [Installation](#installation)
   - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Code Snippets](#code-snippets)
-- [Improvements](#improvements)
-- [References](#references)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
@@ -100,8 +97,6 @@ To get started, follow these steps:
 3.To run the project, use the following command:
     ```bash```
         npm run dev
-
-## Improvements
 
 
 
